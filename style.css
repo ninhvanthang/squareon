@@ -1,0 +1,19 @@
+.product-meta{
+    display:flex;
+    flex-direction:column;
+}
+.product-meta>div,
+.product-meta>section{
+    order:1;
+}
+.product-meta>section.add-to-cart__wrapper{
+    order:0;
+    margin-top:-50px;
+    padding-bottom: 0 !important;
+}
+.product-meta .ControlListRow{
+    padding: 5px 0;
+}
+.product-meta .form-item{
+    padding: 10px 0;
+}
